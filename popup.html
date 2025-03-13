@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+      body {
+          width: 250px;
+          font-family: Arial, sans-serif;
+          padding: 10px;
+      }
+      h3 {
+          margin: 0;
+          font-size: 16px;
+          text-align: center;
+      }
+      ul {
+          list-style-type: none;
+          padding: 0;
+          margin-top: 10px;
+          font-size: 14px;
+      }
+      li {
+          margin: 5px 0;
+          padding: 3px;
+          background-color: #f4f4f4;
+          border-radius: 4px;
+      }
+      button {
+          width: 100%;
+          padding: 8px;
+          margin-top: 10px;
+          font-size: 14px;
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          border-radius: 4px;
+      }
+      button:hover {
+          background-color: #45a049;
+      }
+  </style>
+</head>
+<body>
+<h3>Jira Tab Checker</h3>
+<ul id="ticket-list"></ul>
+<button id="generate-report">Generate Report</button>
+
+<script src="popup.js"></script>
+</body>
+</html>
